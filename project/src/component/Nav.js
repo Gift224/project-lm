@@ -130,7 +130,7 @@ function Nav() {
               </li>
 
               <li>
-                <Link to="/login" className="nav-link scale">
+                <Link to="/" className="nav-link scale">
                   LOGIN
                 </Link>
               </li>
@@ -196,7 +196,7 @@ function Nav() {
 
             <li>
               <Link
-                to="/login"
+                to="/"
                 className="link"
                 onClick={() => setSidebar(false)}
               >
